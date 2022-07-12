@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JherryBook</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <h2 class="my__name"> JherryBook</h2>
+            <ul>
+                <li><i class="fa fa-bell-o" style="color: #fff;"></i></li>
+                <li><i class="fa fa-envelope-o" style="color:#fff;"></i></li>
+                <li><i class="fa fa-video-camera" style="color:#fff;"></i></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <i class="fa fa-search"></i>
+                <input typ="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="my_profile_pic.jpg" alt="my_profile">
+            </div>
+        </div>
+
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile" style="display: block;">
+                    <img src="my_profile_pic.jpg">
+                    <div>
+                        <p style="display: inline;">Jerry Liteyers</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <i class="fa fa-comments-o"></i>
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">For help you can contact us </a>
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <div class="settings-links">
+                        <i class="fa fa-cog  settings-icon"></i>
+                        <a href="#">settings & Privacy<i class="fa fa-long-arrow-right" style="width: 10px;"></i></a>
+                    </div>
+                    <div class="settings-links">
+                        <i class="fa fa-question settings-icon"></i>
+                        <a href="#">Help & Support<i class="fa fa-long-arrow-right" style="width: 10px;"></i></a>
+                    </div>
+                    <div class="settings-links">
+                        <i class="fa fa-television settings-icon"></i> <a href="#">Display & Accessibility<i class="fa fa-long-arrow-right" style="width: 10px;"></i></a>
+                    </div>
+                    <div class="settings-links">
+                        <i class="fa fa-sign-out settings-icon"></i>
+                        <a href="#">Log Out<i class="fa fa-long-arrow-right" style="width: 10px;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+    </nav>
+    <div class="container">
+        <!--------left sidebar------------------------>
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><i class="fa fa-newspaper-o" style="color:#1876f2;"></i>Latest News</a>
+                <a href="#"><i class="fa fa-user" style="color:#1876f2;"></i>Friends</a>
+                <a href="#"><i class="fa fa-users" style="color:#1876f2;"></i>Group</a>
+                <a href="#"><i class="fa fa-cart-arrow-down" style="color:#1876f2;"></i>Market place</a>
+                <a href="#"><i class="fa fa-television" style="color:#1876f2;"></i>Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="meet people in the world 3.jfif" alt="">Web Developers</a>
+                <a href="#"><img src="meet people in the world 4.jfif" alt="">Web Design course</a>
+                <a href="#"><img src="meet people in the world 5.jfif" alt="">Full Stack Development</a>
+                <a href="#"><img src="meet people in the world 6.jfif" alt="">Website Experts</a>
+            </div>
+        </div>
+        <!---main content-->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <i class="fa fa-plus-circle" style="color:#1876f2;font-size: 38px;"></i>
+                    <p>Your Post</p>
+                </div>
+                <div class="story story2">
+                    <img src="josephine.JPG" alt="">
+                    <p>Josephine Bae</p>
+                </div>
+                <div class="story story3">
+                    <img src="Elorm.JPG" alt="Elorm ">
+                    <p> Elorm Love</p>
+                </div>
+                <div class="story story4">
+                    <img src="delight.JPG" alt="delight">
+                    <p>Delight Queenzy</p>
+                </div>
+                <div class="story story5">
+                    <img src="fromphone.JPG" alt="Jerry">
+                    <p>Jerry Liteyers</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="jeremiah after church.jpg">
+                    <div>
+                        <p>Jerry Liteyers</p>
+                        <small>Public<i class="fa fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind,Jerry"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><i class="fa fa-video-camera" style="color: rgb(230, 65, 65);"></i>Live Video</a>
+                        <a href="#"><i class="fa fa-camera" style="color:rgb(53, 99, 53);"></i>Photo/Video</a>
+                        <a href="#"><i class="fa fa-smile-o" style="color:orange;"></i>Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="jeremiah after church.jpg">
+                        <div>
+                            <p>Jerry Liteyers</p>
+                            <span>June 24 2022 13:21pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class=" fa fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">Join <span>Jherry Web Development and Music class</span><a href="#">#Music Class</a><a href="https://jerry-khobby.github.io/Jerrylearning_25/">#Web Development</a></p>
+                <video controls width="500px" class="post-vid"><source src="jerry__playing__ the keyboard.mp4" type="video/mp4"></video>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa fa-thumbs-o-up" style="color:#1876f2"></i>120</div>
+                        <div><i class="fa fa-comment-o"></i>45</div>
+                        <div><i class="fa fa-share"></i>1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="my_profile_pic.jpg"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="jeremiah after church.jpg">
+                        <div>
+                            <p>Jerry Liteyers</p>
+                            <span>June 24 2022 13:21pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class=" fa fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">Join <span>Jherry Web Development and Music class</span><a href="#">#Music Class</a><a href="https://jerry-khobby.github.io/Jerrylearning_25/">#Web Development</a></p>
+                <video controls width="500px" class="post-vid"><source src="jerry__playing__ the keyboard.mp4" type="video/mp4"></video>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa fa-thumbs-o-up" style="color:#1876f2"></i>120</div>
+                        <div><i class="fa fa-comment-o"></i>45</div>
+                        <div><i class="fa fa-share"></i>1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="my_profile_pic.jpg"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="jeremiah after church.jpg">
+                        <div>
+                            <p>Jerry Liteyers</p>
+                            <span>June 24 2022 13:21pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class=" fa fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">Join <span>Jherry Web Development and Music class</span><a href="#">#Music Class</a><a href="https://jerry-khobby.github.io/Jerrylearning_25/">#Web Development</a></p>
+                <video controls width="500px" class="post-vid"><source src="jerry__playing__ the keyboard.mp4" type="video/mp4"></video>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa fa-thumbs-o-up" style="color:#1876f2"></i>120</div>
+                        <div><i class="fa fa-comment-o"></i>45</div>
+                        <div><i class="fa fa-share"></i>1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="my_profile_pic.jpg"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="jeremiah after church.jpg">
+                        <div>
+                            <p>Jerry Liteyers</p>
+                            <span>June 24 2022 13:21pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class=" fa fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">Join <span>Jherry Web Development and Music class</span><a href="#">#Music Class</a><a href="https://jerry-khobby.github.io/Jerrylearning_25/">#Web Development</a></p>
+                <video controls width="500px" class="post-vid"><source src="jerry__playing__ the keyboard.mp4" type="video/mp4"></video>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa fa-thumbs-o-up" style="color:#1876f2"></i>120</div>
+                        <div><i class="fa fa-comment-o"></i>45</div>
+                        <div><i class="fa fa-share"></i>1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="my_profile_pic.jpg"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="jeremiah after church.jpg">
+                        <div>
+                            <p>Jerry Liteyers</p>
+                            <span>June 24 2022 13:21pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class=" fa fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">Join <span>Jherry Web Development and Music class</span><a href="#">#Music Class</a><a href="https://jerry-khobby.github.io/Jerrylearning_25/">#Web Development</a></p>
+                <video controls width="500px" class="post-vid"><source src="jerry__playing__ the keyboard.mp4" type="video/mp4"></video>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fa fa-thumbs-o-up" style="color:#1876f2"></i>120</div>
+                        <div><i class="fa fa-comment-o"></i>45</div>
+                        <div><i class="fa fa-share"></i>1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="my_profile_pic.jpg"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn"> Load More</button>
+        </div>
+        <!----------------------------right sidebar-->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All </a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa fa-map-marker"></i>Ashaiman Zenu-Washington</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketting</h4>
+                    <p><i class="fa fa-map-marker"></i>Newyork City</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close </a>
+            </div>
+            <img src="co-workers pics1.jfif" alt="" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="meet people in the world 7.jfif" alt="">
+                </div>
+                <p>Delight Swanzy</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="meet people in the world 8.jfif" alt="">
+                </div>
+                <p>Grand Papa</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="meet people in the world 9.jfif" alt="">
+                </div>
+                <p>Mirabel Belle</p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="footer">
+        <p>Copyright 2021- Jherry &copy; </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://use.fontawesome.com/08fde5975b.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
